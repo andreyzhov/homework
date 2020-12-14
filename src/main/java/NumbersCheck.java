@@ -19,7 +19,11 @@ public class NumbersCheck {
     private static void isPositive(int positive){
         if (positive > 0) {
             System.out.println("Positive");
-        } else {
+        }
+        else if (positive == 0){
+            System.out.println("0");
+        }
+        else {
             System.out.println("Negative");
         }
     }
