@@ -6,7 +6,6 @@ import java.io.InputStreamReader;
 
 public class Main {
     public static void main(String[]args) throws IOException {
-        Rectangle rectangle = new Rectangle();
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Введите длину прямоугольника: ");
         double side1 = Double.parseDouble(reader.readLine());

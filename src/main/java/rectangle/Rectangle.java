@@ -7,11 +7,9 @@ public class Rectangle {
         side2 = 0.00;
     }
     public double areaCalculator(double side1, double side2){
-        double s = side1 * side2;
-        return s;
+        return side1 * side2;
     }
     public double perimeterCalculator(double side1, double side2){
-        double p = 2 * (side1 + side2);
-        return p;
+        return 2 * (side1 + side2);
     }
 }
