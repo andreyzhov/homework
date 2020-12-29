@@ -12,14 +12,14 @@ public class Main {
         System.out.println("Введите ширину прямоугольника: ");
         double side2 = Double.parseDouble(reader.readLine());
 
-        double RectangleArea;
+        double rectangleArea;
         Rectangle areaRectangle = new Rectangle();
-        RectangleArea = areaRectangle.areaCalculator(side1, side2);
-        System.out.println("Площадь прямоугольника = " + RectangleArea);
+        rectangleArea = areaRectangle.areaCalculator(side1, side2);
+        System.out.println("Площадь прямоугольника = " + rectangleArea);
 
-        double RectanglePermiter;
+        double rectanglePermiter;
         Rectangle perimRectangle = new Rectangle();
-        RectanglePermiter = perimRectangle.perimeterCalculator(side1, side2);
-        System.out.println("Площадь прямоугольника = " + RectanglePermiter);
+        rectanglePermiter = perimRectangle.perimeterCalculator(side1, side2);
+        System.out.println("Площадь прямоугольника = " + rectanglePermiter);
     }
 }
