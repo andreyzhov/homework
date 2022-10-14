@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.ArrayList;
 
 public class sum {
     //  public static void main(String[] args) throws Exception {
@@ -587,36 +587,32 @@ class Dog {
     }
 }*/
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] a) throws IOException {
         //напишите тут ваш код
-      /*  ArrayList<String> list = new ArrayList<String>();
+/*        ArrayList<String> list = new ArrayList<String>();
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         for (int i = 0; i < 5; i++) {
             list.add(reader.readLine());
         }
         int max = list.get(0).length();
         int min = list.get(0).length();
-        for (int i = 0; i < list.size(); i++){
-            if (max < list.get(i).length()){
-                max = list.get(i).length();
-            }
-            else if (min > list.get(i).length()) {
-                min = list.get(i).length();
-            }
-        }
-        for (int i = 0; i < list.size(); i++) {
-            if (list.get(i).length() == max) {
-                System.out.println(list.get(i));
-                break;
-            }
-            else if (list.get(i).length() == min) {
-                System.out.println(list.get(i));
-                break;
+        for (String s : list) {
+            if (max < s.length()) {
+                max = s.length();
+            } else if (min > s.length()) {
+                min = s.length();
             }
         }
-    }
-}
-            ArrayList<String> list = new ArrayList<>();
+        for (String s : list) {
+            if (s.length() == max) {
+                System.out.println(s);
+                break;
+            } else if (s.length() == min) {
+                System.out.println(s);
+                break;
+            }
+        }*/
+           /* ArrayList<String> list = new ArrayList<>();
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             for (int i = 0; i < 5; i++){
                 list.add(reader.readLine());
@@ -626,7 +622,7 @@ class Dog {
                 System.out.println(list.get(i));
             }
         }
-       /* ArrayList<String> list = new ArrayList<String>();
+        ArrayList<String> list = new ArrayList<String>();
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         for (int i = 0; i < 10; i++){
             list.add(reader.readLine());
@@ -639,7 +635,7 @@ class Dog {
             }
         }
     }
-}*/
+}
        /* BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         ArrayList<String> list = new ArrayList<String>(Arrays.asList("мама", "мыла", "раму"));
         for (int i = 0; i < list.size(); i++){
@@ -647,9 +643,4 @@ class Dog {
         }
     }
 }*/
-
-        int a = 6, b = 4;
-        a = ++a + b++ + a++;
-        int c = --a + b--;
-        System.out.println(a + " " + b + " " + c);
     }}
