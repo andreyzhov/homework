@@ -1,6 +1,6 @@
 package salad;
 
-public class Products {
+public abstract class Products {
 
     protected String name;
     protected int quantity;
@@ -10,24 +10,20 @@ public class Products {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public int getCalories() {
         return calories;
-    }
-
-    public void setCalories(int calories) {
-        this.calories = calories;
     }
 
     public int getQuantity() {
         return quantity;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    @Override
+    public String toString() {
+        return "Products{" +
+                "name='" + name + '\'' +
+                ", quantity=" + quantity +
+                ", calories=" + calories +
+                '}';
     }
-
 }

@@ -23,20 +23,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eaebf9d-7f26-4ef0-aa92-b0db6a1fc287" name="Default Changelist" comment="homework 5">
-      <change afterPath="$PROJECT_DIR$/src/main/java/salad/Cucumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/salad/Eggs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/salad/PrepareSalad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/salad/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/salad/Souce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/salad/SweetPepper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/salad/Tomato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/salad/Salad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/truck.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/truck.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/salad/Cucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/salad/Cucumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/salad/Eggs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/salad/Eggs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/salad/PrepareSalad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/salad/PrepareSalad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/salad/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/salad/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/salad/Souce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/salad/Sauce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/salad/Tomato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/salad/Tomato.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
@@ -61,6 +65,9 @@
     <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="Justice86" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="homework" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -253,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665745227334</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="homework with chef">
+      <created>1665747002621</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665747002621</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,7 +294,9 @@
     <MESSAGE value="homework 5" />
     <MESSAGE value="test" />
     <MESSAGE value="make salad task" />
-    <option name="LAST_COMMIT_MESSAGE" value="make salad task" />
+    <MESSAGE value="homework with chef" />
+    <MESSAGE value="fix comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
