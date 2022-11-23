@@ -22,18 +22,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eaebf9d-7f26-4ef0-aa92-b0db6a1fc287" name="Default Changelist" comment="homework 5">
-      <change afterPath="$PROJECT_DIR$/src/main/java/salad/Salad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="8eaebf9d-7f26-4ef0-aa92-b0db6a1fc287" name="Default Changelist" comment="read document">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaHistory.rtf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bookreader/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bookreader/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/truck.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/truck.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/salad/Cucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/salad/Cucumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/salad/Eggs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/salad/Eggs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/salad/PrepareSalad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/salad/PrepareSalad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/salad/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/salad/Products.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/salad/Souce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/salad/Sauce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/salad/Tomato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/salad/Tomato.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +38,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
@@ -82,13 +82,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -101,13 +102,13 @@
       <recent name="salad" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrepareSalad">
-    <configuration name="Book" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bookSearch.Book" />
+  <component name="RunManager" selected="Application.Reader">
+    <configuration name="FileReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bookreader.FileReader" />
       <module name="truck" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bookSearch.*" />
+          <option name="PATTERN" value="bookreader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rectangle.Main" />
+    <configuration name="PrepareSalad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="salad.PrepareSalad" />
       <module name="truck" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rectangle.*" />
+          <option name="PATTERN" value="salad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrepareSalad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="salad.PrepareSalad" />
+    <configuration name="Reader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bookreader.Reader" />
       <module name="truck" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="salad.*" />
+          <option name="PATTERN" value="bookreader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Reader" />
+        <item itemvalue="Application.FileReader" />
         <item itemvalue="Application.PrepareSalad" />
         <item itemvalue="Application.RemoveMinMax" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Book" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665747002621</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix comments">
+      <created>1666104944830</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666104944830</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,7 +304,8 @@
     <MESSAGE value="make salad task" />
     <MESSAGE value="homework with chef" />
     <MESSAGE value="fix comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix comments" />
+    <MESSAGE value="read document" />
+    <option name="LAST_COMMIT_MESSAGE" value="read document" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -304,6 +313,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
