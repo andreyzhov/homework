@@ -14,7 +14,7 @@ public class FileReader {
     String document;
 
     public FileReader(String reader) {
-        this.document = reader;
+        document = reader;
     }
 
     public String readDocument() throws FileNotFoundException {
