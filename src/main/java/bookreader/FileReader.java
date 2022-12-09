@@ -13,7 +13,7 @@ public class FileReader {
 
     String result;
     String document;
-    String regex = "\\s*(\\s|,|!|\\.)\\s*";
+    final String REGEX = "\\s*(\\s|,|!|\\.)\\s*";
 
     public FileReader(String reader) {
         document = reader;
@@ -34,19 +34,19 @@ public class FileReader {
     }
 
     public long quantitySpace() {
-        return Arrays.stream(result.replaceAll(regex, " ")
+        return Arrays.stream(result.replaceAll(REGEX, " ")
                 .split(" "))
                 .count();
     }
 
     public String firsTwelveWord() {
-        return String.valueOf(Arrays.stream(result.split(regex))
+        return String.valueOf(Arrays.stream(result.split(REGEX))
                 .limit(12)
                 .collect(Collectors.toList()));
     }
 
     public String sortedFirsTwelveWord() {
-        return String.valueOf(Arrays.stream(result.split(regex))
+        return String.valueOf(Arrays.stream(result.split(REGEX))
                 .limit(12)
                 .sorted()
                 .collect(Collectors.toList()));
@@ -64,7 +64,7 @@ public class FileReader {
 
     public String findLastWord() {
         return Arrays.toString(result.substring(result.lastIndexOf(" ") + 1)
-                .split(regex));
+                .split(REGEX));
     }
 
     public String onlyNumber() {
