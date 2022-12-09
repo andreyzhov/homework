@@ -11,10 +11,10 @@ public class Reader {
         System.out.println(fileReader.quantitySpace());
         System.out.println(fileReader.firsTwelveWord());
         System.out.println(fileReader.sortedFirsTwelveWord());
-        System.out.println(fileReader.findFirst());
-        System.out.println(fileReader.findAny());
-        System.out.println(fileReader.findLast());
-        System.out.println(fileReader.integer());
+        System.out.println(fileReader.findFirstWord());
+        System.out.println(fileReader.findAnyWord());
+        System.out.println(fileReader.findLastWord());
+        System.out.println(fileReader.onlyNumber());
         System.out.println(fileReader.contains("2006"));
         System.out.println(fileReader.unique());
     }

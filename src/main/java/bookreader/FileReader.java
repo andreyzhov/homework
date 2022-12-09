@@ -7,11 +7,13 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class FileReader {
 
     String result;
     String document;
+    String regex = "\\s*(\\s|,|!|\\.)\\s*";
 
     public FileReader(String reader) {
         document = reader;
@@ -32,38 +34,40 @@ public class FileReader {
     }
 
     public long quantitySpace() {
-        return result.chars().filter(c -> c == (int) ' ').count();
+        return Arrays.stream(result.replaceAll(regex, " ")
+                .split(" "))
+                .count();
     }
 
     public String firsTwelveWord() {
-        return String.valueOf(Arrays.stream(result.split(" "))
+        return String.valueOf(Arrays.stream(result.split(regex))
                 .limit(12)
                 .collect(Collectors.toList()));
     }
 
     public String sortedFirsTwelveWord() {
-        return String.valueOf(Arrays.stream(result.split("\\s*(\\s|,|!|\\.)\\s*"))
+        return String.valueOf(Arrays.stream(result.split(regex))
                 .limit(12)
                 .sorted()
                 .collect(Collectors.toList()));
     }
 
-    public String findFirst() {
-        return String.valueOf(Arrays.stream(result.split(" "))
+    public String findFirstWord() {
+        return String.valueOf(splitDocument()
                 .findFirst());
     }
 
-    public String findAny() {
-        return String.valueOf(Arrays.stream(result.split("\\s*(\\s|,|!|\\.)\\s*"))
+    public String findAnyWord() {
+        return String.valueOf(splitDocument()
                 .findAny());
     }
 
-    public String findLast() {
+    public String findLastWord() {
         return Arrays.toString(result.substring(result.lastIndexOf(" ") + 1)
-                .split("[-#$%^&!?{}@*()~`\\[\\],.0-9\\\\s]+"));
+                .split(regex));
     }
 
-    public String integer() {
+    public String onlyNumber() {
         return result.replaceAll("\\D+", " ");
     }
 
@@ -73,10 +77,14 @@ public class FileReader {
     }
 
     public List<String> unique() {
-        return Arrays.stream(result.split(" "))
+        return splitDocument()
                 .distinct()
                 .limit(30)
                 .collect(Collectors.toList());
+    }
+
+    private Stream<String> splitDocument() {
+        return Arrays.stream(result.split(" "));
     }
 
 }
